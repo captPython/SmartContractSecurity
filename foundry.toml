@@ -3,7 +3,7 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
-remapping = ['@openzeppelin/contracts=/unit1/lib/openzeppelin-contracts/contracts']
+remapping = ['@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/']
 
 [fuzz]
 runs = 600
